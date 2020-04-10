@@ -12,5 +12,8 @@ for a,b in data.items():
 for k,v in dta[2].items():
     for i in v:
         for x,y in i.items():
+            print("\n\n\n\n  data \n\n\n")
             print(x,y)
-      
+            for i in y:
+                print(i)
+            
